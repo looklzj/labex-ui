@@ -7,8 +7,8 @@
  * @Description: File desctiption 
  */
 
-import MoorSelect from './moor-select';
+import LabexSelect from './labex-select';
 
-MoorSelect.install = Vue => Vue.component(MoorSelect.name, MoorSelect);
+LabexSelect.install = Vue => Vue.component(LabexSelect.name, LabexSelect);
 
-export default MoorSelect;
+export default LabexSelect;

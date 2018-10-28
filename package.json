@@ -1,7 +1,7 @@
 {
-  "name": "labex-ui-test",
+  "name": "labex-ui",
   "description": "An ui project base on Vue.js ",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "author": "lookInward <1521274537@qq.com>",
   "license": "MIT",
   "main": "dist/labex-ui.js",
@@ -11,8 +11,14 @@
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
   },
   "dependencies": {
+    "highlight.js": "^9.13.1",
     "labex-ui": "^1.0.3",
-    "vue": "^2.5.11"
+    "markdown-it-anchor": "^5.0.2",
+    "markdown-it-container": "^2.0.0",
+    "transliteration": "^1.6.6",
+    "vue": "^2.5.11",
+    "vue-markdown-loader": "^2.4.1",
+    "vue-router": "^3.0.1"
   },
   "browserslist": [
     "> 1%",

@@ -1,6 +1,6 @@
 <template>
   <input type="text"
-    class="moor-input"
+    class="labex-input"
     :placeholder="placeholder"
     :value="value"
     :disabled="disabled"
@@ -9,7 +9,7 @@
 
 <script>
 export default {
-  name: 'MoorInput',
+  name: 'LabexInput',
   data() {
     return {}
   },

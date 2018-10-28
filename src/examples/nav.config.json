@@ -1,0 +1,58 @@
+{
+  "如何使用": [
+    {
+      "name": "index",
+      "path": "/",
+      "type": "md"
+    },
+    {
+      "desc": "开始使用",
+      "name": "index",
+      "path": "/"
+    }
+  ],
+  "组件": [
+    {
+      "desc": "常用组件",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "按钮",
+          "name": "labex-btn",
+          "path": "/labex-btn"
+        },
+        {
+          "desc": "单选框",
+          "name": "labex-radio",
+          "path": "/labex-radio"
+        },
+        {
+          "desc": "输入框",
+          "name": "labex-input",
+          "path": "/labex-input"
+        },
+        {
+          "desc": "下拉框",
+          "name": "labex-dropdown",
+          "path": "/labex-dropdown"
+        }
+      ]
+    },
+    {
+      "desc": "其他组件",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "正在加载",
+          "name": "labex-loading",
+          "path": "/labex-loading"
+        },
+        {
+          "desc": "弹出框",
+          "name": "labex-modal",
+          "path": "/labex-modal"
+        }
+      ]
+    }
+  ]
+}

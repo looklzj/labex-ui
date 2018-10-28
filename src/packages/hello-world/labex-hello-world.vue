@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'moorHelloWorld',
+  name: 'labexHelloWorld',
   props: {
     color: {
       type: String,

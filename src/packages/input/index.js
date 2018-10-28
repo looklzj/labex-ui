@@ -7,8 +7,8 @@
  * @Description: File desctiption 
  */
 
-import MoorInput from './moor-input';
+import LabexInput from './labex-input';
 
-MoorInput.install = Vue => Vue.component(MoorInput.name, MoorInput);
+LabexInput.install = Vue => Vue.component(LabexInput.name, LabexInput);
 
-export default MoorInput;
+export default LabexInput;

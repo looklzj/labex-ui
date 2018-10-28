@@ -1,5 +1,5 @@
 <template>
-  <div class="moor-select"
+  <div class="labex-select"
     @click.stop="handleToggleMenu()">
     <span @click.stop="handleToggleMenu()"
       :class="{active: isShow}">{{currentOption.label || '请选择'}}
@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'MoorSelect',
+  name: 'LabexSelect',
   props: {
     label: [String, Number],
     value: [String, Number],
@@ -62,7 +62,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.moor-select {
+.labex-select {
   width: 200px;
   position: relative;
   font-size: 14px;

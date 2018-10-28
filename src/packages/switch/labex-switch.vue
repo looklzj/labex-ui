@@ -1,5 +1,5 @@
 <template>
-  <div class="moor-switch">
+  <div class="labex-switch">
     <span><slot></slot></span>
 
     <div :class="[{closed: !checked}, 'switch-box']"
@@ -19,7 +19,7 @@
 
 <script>
 export default {
-  name: 'MoorSwitch',
+  name: 'LabexSwitch',
   data() {
     return {}
   },
@@ -55,7 +55,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.moor-switch {
+.labex-switch {
   display: inline-block;
 
   > span, > div {

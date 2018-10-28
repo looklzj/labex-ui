@@ -1,6 +1,6 @@
 <template>
   <button
-    class="moor-button"
+    class="labex-button"
     @click="handleClick"
     :disabled="buttonDisabled"
     :autofocus="autofocus"
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'MoorButton',
+  name: 'LabexButton',
   props: {
     buttonDisabled: Boolean,
     autofocus: Boolean,
@@ -31,7 +31,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.moor-button {
+.labex-button {
   padding: 6px 20px;
   font-size: 14px;
   border-radius: 4px;
