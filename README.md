@@ -1,4 +1,4 @@
-# moor-ui
+# ui
 
 > An ui project base on Vue.js 
 
